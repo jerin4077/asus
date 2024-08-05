@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Hind", sans-serif;
+}
+header{
+    width: 100%;
+    padding: 10px;
+}
+header.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.user{
+    height: 20px;
+    width: 20px;
+    margin-left: 35px;
+    align-items: end;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-right: 28px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.maincontainer{
+    margin: 0;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.slidecontainer{
+    margin-top: 10px;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.imagecontainer{
+    width: 4800px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+.sliderimage{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    max-width: 800px;
+    max-height: 600px;
+}
+.buttoncontainer{
+    top:-150px;
+    position: relative;
+}
+.sliderbutton{
+    display: inline-block;
+    height:10px;
+    width:10px;
+    border-radius: 10px;
+    background-color: rgb(8, 8, 8);
+}
+#slideimage1:target~.imagecontainer{
+    left: 0px;
+}
+#slideimage2:target~.imagecontainer{
+    left: -800px;
+}
+#slideimage3:target~.imagecontainer{
+    left: -1600px;
+}
+#slideimage4:target~.imagecontainer{
+    left: -2400px;
+}
+#slideimage5:target~.imagecontainer{
+    left: -3200px;
+}
+#slideimage6:target~.imagecontainer{
+    left: -4000px;
+}
+.maincontainer2{
+    background-color:  #ffffff;
+    margin-top: -110px;
+}
+.bannercontainer2{
+    margin: 10px;
+}
+.poster1{
+    height: 450px;
+    width: 100%;
+}
+.bannercontainer3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.poster2{
+    height: 450px;
+    width: 50%;
+}
+.maincontainer3{
+    min-height: 100vh;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+}
+::-webkit-scrollbar{
+    height: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb{
+    background: #6e93f7;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #4070f4;
+}
+.container1{
+    display: flex;
+    gap: 12px;
+    max-width: 450px;
+    width: 100%;
+    background: #143aef ;
+    border-radius: 12px;
+    padding: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 30px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+.container1 .card{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 12px;
+    background: #ffffff;
+    scroll-snap-align: start;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+.card .image{
+    height: 350px;
+    width: 350px;
+    padding: 4px;
+    background: #4070f4;
+    border-radius: 12px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 5px solid #ffffff;
+
+}
+.card h2{
+    margin-top: 25px;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+}
+.maincontainer4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -40px;
+}
+.See{
+    text-decoration: none;
+    color: #143aef;
+    font-size: 20px
+}
+.cont{
+    text-align: center;
+}
+.mos{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.lap{
+    display: flex;
+    justify-content: space-around;
+}
+.maincontainer6{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -20px;
+
+    
+}
+.img{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+} 
+.cus{
+    height: 25px;
+    width: 25px;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+}
+.mi{
+    text-decoration: none;
+    color: #606060;
+}
+.shop{
+    margin-left: 20px;
+}
+.scicons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: -5px;
+    
+}
+.sc{
+    height: 30px;
+    width: 30px;
+}
+
